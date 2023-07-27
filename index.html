@@ -821,7 +821,7 @@
     <!-- team section ends -->
 
     <!--Why choose us section starts here-->
-    <section class="container mx-auto px-6">
+    <section class="container mx-auto px-6 space-y-4">
       <!-- 1st row -->
       <div class="text-center space-y-3">
         <h2 class="text-5xl font-[800] text-black">Why Choose Us</h2>
@@ -832,13 +832,15 @@
         </p>
       </div>
       <!-- 2nd row  -->
-      <div class="grid grid-cols-3 items-center">
+      <div
+        class="grid lg:grid-cols-3 lg:items-center md:grid-cols-1 md:justify-items-center justify-items-center gap-4"
+      >
         <!-- 1st  column -->
-        <div>
+        <div class="lg:order-[0] md:order-2 order-2">
           <!-- 1st carrd -->
 
           <div
-            class="card w-[20rem] bg-transparent text-primary-content flex-row items-center"
+            class="card w-[20rem] bg-transparent text-primary-content lg:flex-row flex-col items-center"
           >
             <div class="card-actions justify-center">
               <button class="btn btn-circle">
@@ -857,18 +859,25 @@
               </button>
             </div>
             <div class="card-body p-[1rem]">
-              <h2 class="card-title text-lg text-black">Dedicated Team</h2>
-              <div class="border-b-2 border-gray-500 w-[30%]"></div>
-              <p class="text-black text-sm">
+              <h2
+                class="card-title text-lg text-black lg:justify-start justify-center"
+              >
+                Dedicated Team
+              </h2>
+              <div
+                class="border-b-2 border-gray-500 w-[30%] md:mx-auto mx-auto lg:ml-0"
+              ></div>
+              <p class="text-black text-sm lg:text-left text-center">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
             </div>
           </div>
+
           <!-- 2nd carrd -->
 
           <div
-            class="card w-[20rem] bg-transparent text-primary-content flex-row items-center"
+            class="card w-[20rem] bg-transparent text-primary-content lg:flex-row flex-col items-center"
           >
             <div class="card-actions justify-center">
               <button class="btn btn-circle">
@@ -887,9 +896,15 @@
               </button>
             </div>
             <div class="card-body p-[1rem]">
-              <h2 class="card-title text-black text-lg">Fresh is Best</h2>
-              <div class="border-b-2 border-gray-500 w-[30%]"></div>
-              <p class="text-black text-sm">
+              <h2
+                class="card-title text-black text-lg lg:justify-start justify-center"
+              >
+                Fresh is Best
+              </h2>
+              <div
+                class="border-b-2 border-gray-500 w-[30%] md:mx-auto mx-auto lg:ml-0"
+              ></div>
+              <p class="text-black text-sm lg:text-left text-center">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
@@ -898,7 +913,7 @@
           <!-- 3ed carrd -->
 
           <div
-            class="card w-[20rem] bg-transparent text-primary-content flex-row items-center"
+            class="card w-[20rem] bg-transparent text-primary-content items-center lg:flex-row flex-col"
           >
             <div class="card-actions justify-center">
               <button class="btn btn-circle">
@@ -968,9 +983,15 @@
               </button>
             </div>
             <div class="card-body p-[1rem]">
-              <h2 class="card-title text-lg text-black">Gift Certificates</h2>
-              <div class="border-b-2 border-gray-500 w-[30%]"></div>
-              <p class="text-black text-sm">
+              <h2
+                class="card-title text-lg text-black lg:justify-start justify-center"
+              >
+                Gift Certificates
+              </h2>
+              <div
+                class="border-b-2 border-gray-500 w-[30%] md:mx-auto mx-auto lg:ml-0"
+              ></div>
+              <p class="text-black text-sm lg:text-left text-center">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
@@ -978,7 +999,7 @@
           </div>
         </div>
         <!-- 2nd  column -->
-        <div>
+        <div class="lg:order-[0] md:order-1 order-1">
           <img
             src="./images/whychoose1.png"
             alt=""
@@ -986,16 +1007,20 @@
           />
         </div>
         <!-- 3rd  column -->
-        <div>
+        <div class="lg:order-[0] md:order-3 order-3">
           <!-- 1st card -->
           <div
-            class="card w-[20rem] bg-transparent text-primary-content flex-row items-center"
+            class="card w-[20rem] bg-transparent text-primary-content lg:flex-row flex-col-reverse items-center"
           >
-            <div class="card-body text-right p-4">
-              <h2 class="text-black text-right text-lg font-extrabold">
+            <div class="card-body p-4">
+              <h2
+                class="card-title text-black lg:justify-end justify-center text-lg"
+              >
                 Integrated Supplier
               </h2>
-              <div class="border-b-2 border-gray-500 w-[30%] ml-auto"></div>
+              <div
+                class="border-b-2 border-gray-500 w-[30%] lg:mr-0 mx-auto md:mx-auto"
+              ></div>
               <p class="text-black text-sm">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
@@ -1064,14 +1089,18 @@
           </div>
           <!-- 2nd card -->
           <div
-            class="card w-[20rem] bg-transparent text-primary-content flex-row items-center"
+            class="card w-[20rem] bg-transparent text-primary-content lg:flex-row flex-col-reverse items-center"
           >
             <div class="card-body text-right p-4">
-              <h2 class="text-black text-right text-lg font-extrabold">
+              <h2
+                class="card-title text-black lg:justify-end justify-center text-lg"
+              >
                 Sustainable Practice
               </h2>
-              <div class="border-b-2 border-gray-500 w-[30%] ml-auto"></div>
-              <p class="text-black text-sm">
+              <div
+                class="border-b-2 border-gray-500 w-[30%] mx-auto md:mx-auto lg:mr-0"
+              ></div>
+              <p class="text-black text-sm lg:text-right text-center">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
@@ -1100,14 +1129,18 @@
           </div>
           <!-- 3rdd card -->
           <div
-            class="card w-[20rem] bg-transparent text-primary-content flex-row items-center"
+            class="card w-[20rem] bg-transparent text-primary-content lg:flex-row flex-col-reverse items-center"
           >
-            <div class="card-body text-right p-4">
-              <h2 class="text-black text-right text-lg font-extrabold">
+            <div class="card-body p-4">
+              <h2
+                class="card-title text-black lg:justify-end justify-center text-lg"
+              >
                 The Benefits Only
               </h2>
-              <div class="border-b-2 border-gray-500 w-[30%] ml-auto"></div>
-              <p class="text-black text-sm">
+              <div
+                class="border-b-2 border-gray-500 w-[30%] lg:mr-0 mx-auto"
+              ></div>
+              <p class="text-black text-sm lg:text-right text-center">
                 Professional employees are there for you to pick the most
                 amazing and fresh fruits.
               </p>
