@@ -23,7 +23,12 @@
     />
 
     <!-- custom tailwind -->
-
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
     <script>
       tailwind.config = {
         theme: {
@@ -42,7 +47,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body style="font-family: 'Lato', sans-serif">
+  <body style="font-family: 'Lato', sans-serif" class="w-full h-full">
     <header class="container mx-auto px-6">
       <!-- navbar starts here -->
 
@@ -83,7 +88,7 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class="menu menu-xs dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-24"
               >
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
